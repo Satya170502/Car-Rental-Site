@@ -1,0 +1,127 @@
+footer {
+    background-color: #fff;
+    padding: 10rem 0;
+    display: block;
+}
+.footer-content {
+    grid-gap: 8rem;
+    color: #010103;
+    display: grid;
+    gap: 8rem;
+    grid-template-columns: 27fr 21fr 21fr 21fr;
+    justify-content: center;
+    text-align: left;
+}
+.footer-content__1 {
+    list-style: none;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-content__1 li:first-child {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.footer-content__1 li:first-child span {
+    font-weight: 700;
+}
+.footer-content__1 li:nth-child(2) {
+    color: #706f7b;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+}
+.footer-content__1 li:nth-child(3) {
+    font-family: Rubik,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.footer-content__1 li a {
+    color: #010103;
+    text-decoration: none;
+    transition: all .2s;
+}
+ .footer-content__1 li:nth-child(4) {
+    font-family: Rubik,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.footer-content__2 {
+    list-style: none;
+}
+.footer-content__2 li:first-child {
+    cursor: auto;
+    font-family: Poppins,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-content__2 li {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.footer-content__2 a {
+    color: #010103;
+    text-decoration: none;
+    transition: all .2s;
+}
+.footer-content__2 input {
+    background-color: #ececec;
+    border-color: transparent;
+    border-width: 1px;
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 1rem;
+    outline: none;
+    padding: 10px 60px;
+}
+input:not([type="range"]):not([type="color"]) {
+    writing-mode: horizontal-tb !important;
+}
+.submit-email {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.25);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+    transition: all .3s;
+    width: 100%;
+}
+.submit-email:hover{
+    box-shadow: 0 10px 15px 0 #ff4d30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="./rent-icon2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/model.css">
+   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <style media="all" id="fa-v4-font-face">
+        @font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-regular-400.ttf) format("truetype");unicode-range:u+f003,u+f006,u+f014,u+f016-f017,u+f01a-f01b,u+f01d,u+f022,u+f03e,u+f044,u+f046,u+f05c-f05d,u+f06e,u+f070,u+f087-f088,u+f08a,u+f094,u+f096-f097,u+f09d,u+f0a0,u+f0a2,u+f0a4-f0a7,u+f0c5,u+f0c7,u+f0e5-f0e6,u+f0eb,u+f0f6-f0f8,u+f10c,u+f114-f115,u+f118-f11a,u+f11c-f11d,u+f133,u+f147,u+f14e,u+f150-f152,u+f185-f186,u+f18e,u+f190-f192,u+f196,u+f1c1-f1c9,u+f1d9,u+f1db,u+f1e3,u+f1ea,u+f1f7,u+f1f9,u+f20a,u+f247-f248,u+f24a,u+f24d,u+f255-f25b,u+f25d,u+f271-f274,u+f278,u+f27b,u+f28c,u+f28e,u+f29c,u+f2b5,u+f2b7,u+f2ba,u+f2bc,u+f2be,u+f2c0-f2c1,u+f2c3,u+f2d0,u+f2d2,u+f2d4,u+f2dc}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-v4compatibility.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-v4compatibility.ttf) format("truetype");unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a}</style>
+        <style media="all" id="fa-v5-font-face">
+           
+            @font-face{font-family:"Font Awesome 5 Brands";font-display:block;font-weight:400;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:900;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:400;src:url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.4.0/webfonts/free-fa-regular-400.ttf) format("truetype")}</style>
+            <link rel="stylesheet" href="Styles/banner.css">
+            <link rel="stylesheet" href="Styles/plan.css">
+           <link rel="icon" href="Media/rent-icon.png">     
+         <link rel="stylesheet" href="Styles/general.css" >
+         <link rel="stylesheet" href="Styles/header.css" >
+         <link rel="stylesheet" href="Styles/section.css" >
+         <link rel="stylesheet" href="Styles/testimonials.css" >
+         <link rel="stylesheet" href="Styles/footer.css" >
+            <title>Car Tisko</title>
+</head>
+<body >
+   <div id="root">
+<nav>
+    <div class="navbar">
+        <div style="margin-left: -10px;" class="navbar__img">
+            <a href="/">
+                <img src="Media/logo.0ad964cb93ab30cc809d.png" alt="logo-img">
+            </a>
+        </div>
+        <ul class="navbar__links">
+            <li><a class="home-link" href="/">Home</a></li>
+            <li><a class="about-link" href="#about">About</a></li>
+            <li><a class="models-link" href="#modelfleet">Models</a></li>
+            <li><a class="testi-link" href="#testi">Testimonials</a></li>
+           
+            <li><a class="contact-link" href="#contact">Contact</a></li>
+        </ul>
+       <div class="navbar__buttons">
+        <a class="navbar__buttons__sign-in" href="/">Sign In</a>
+        <a class="navbar__buttons__register" href="/">Register</a>
+       </div> 
+       <div class="mobile-ham">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+    </div>
+</nav>
+<section id="home" class="hero-section">
+<div class="container">
+    <img class="bg-shape" src="Media/hero-bg.3b5f7a2502f0f81d1490.png" alt="bg-shape">
+    <div class="hero-content">
+        <div class="hero-content__text">
+            <h4 >Plan your trip now</h4>
+           
+            <h1 style="margin-top: -5px">Save <span>big</span> with our car rental</h1>
+            <p>Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
+            <div class="hero-content__text__btns">
+                <a class="hero-content__text__btns__book-ride" href="/">
+                    Book Ride &nbsp;   <i class="fa-solid fa-circle-check"></i></a>
+                <a class="hero-content__text__btns__learn-more" href="/">Learn More  <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </div>
+        <img src="Media/main-car.9b30faa59387879fa060.png" alt="hero-content__car-img">
+    </div>
+</div>
+<div class="scroll-up">
+    <i class="fa-solid fa-angle-up"></i>
+</div>
+</section>
+<section id="booking-section" class="book-section">
+    <div class="modal-overlay ">
+
+    </div>
+    <div class="container">
+        <div class="book-content">
+            <div style="margin-top: 50px;" class="book-content__box">
+                <h2>Book a car</h2><p class="error-message">
+                    All fields required! 
+                    <i class="fa-solid fa-xmark">
+
+                    </i></p><p class="booking-done">
+                        Check your email to confirm an order. 
+                        <i class="fa-solid fa-xmark">
+
+                        </i>
+                    </p><form class="box-form">
+                        <div class="box-form__car-type">
+                            <label><i class="fa-solid fa-car">
+
+                            </i> &nbsp; Select Your Car Type <b>*</b></label>
+                            <select><option>Select your car type</option><option value="Audi A1 S-Line">Audi A1 S-Line</option><option value="VW Golf 6">VW Golf 6</option><option value="Toyota Camry">Toyota Camry</option><option value="BMW 320 ModernLine">BMW 320 ModernLine</option><option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option><option value="VW Passat CC">VW Passat CC</option></select></div>
+                            <div class="box-form__car-type"><label><i class="fa-solid fa-location-dot"></i> &nbsp; Pick-up <b>*</b></label>
+                                <select>
+                                    <option>Select pick up location</option>
+                                    <option>Miyapur</option>
+                                    <option>JNTU</option>
+                                    <option>KPHB</option>
+                                    <option>Kukatpally</option>
+                                    <option>Ameerpet</option>
+                                    <option>Jubilee Hills</option>
+                                    <option>Banjara Hills</option>
+                            </select>
+                        </div>
+                        <div class="box-form__car-type">
+                            <label><i class="fa-solid fa-location-dot"></i> &nbsp; Drop-of <b>*</b></label>
+                            <select>
+                                <option>Select drop off location</option>
+                              <option>Miyapur</option>
+                              <option>JNTU</option>
+                              <option>KPHB</option>
+                              <option>Kukatpally</option>
+                              <option>Ameerpet</option>
+                              <option>Jubilee Hills</option>
+                              <option>Banjara Hills</option>
+                            </select>
+                        </div>
+                        <div class="box-form__car-time">
+                            <label for="picktime"><i class="fa-regular fa-calendar-days "></i> &nbsp; Pick-up <b>*</b></label>
+                            <input id="picktime" type="date" value=""></div><div class="box-form__car-time">
+                                <label for="droptime"><i class="fa-regular fa-calendar-days "></i> &nbsp; Drop-of <b>*</b></label>
+                                <input id="droptime" type="date" value="">
+                            </div>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+</section>
+<section style="margin-top: -35px;" class="plan-section">
+<div class="container">
+    <div class="plan-container">
+        <div class="plan-container__title">
+            <h3>Plan your trip now</h3>
+            <h2>Quick &amp; easy car rental</h2>
+        </div>
+        <div class="plan-container__boxes">
+           <div class="plan-container__boxes__box">
+            <img src="Media/download (1).png" alt="icon_img">
+            <h3>Select Car</h3>
+            <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
+           </div>
+           <div class="plan-container__boxes__box">
+            <img src="Media/download (2).png" alt="icon_img">
+            <h3>Contact Operator</h3>
+            <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
+           </div>
+           <div class="plan-container__boxes__box">
+            <img src="Media/download (3).png" alt="icon_img">
+            <h3>Lets's Drive</h3>
+            <p>Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
+           </div>
+        </div>
+
+    </div>
+</div>
+</section>
+  <div id="modelfleet" style="padding-left: 60px;" class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1 style="font-weight: bolder;padding-left:540px;font-size:40px;">Vehicle Models</h1>
+        <h1 style="padding-right: 60px;" class="text-center fleet_heading">
+          Our rental fleet
+        </h1>
+        <p style="font-size: 15px ;"  class="text-center">
+          Choose from a variety of our amazing vehicles to rent for your next<br> adventure or business trip
+        </p>
+      </div>
+      <div   class="col-12 col-md-3 x">
+        <div  class="pick-box">
+          <button class="btnx colored-button" id="btn1">Audi A1 S-Line</button>
+          <button class="btnx" id="btn2">VW Golf 6</button>
+          <button class="btnx" id="btn3">Toyota Camry</button>
+          <button class="btnx" id="btn4">BMW 320 ModernLine</button>
+          <button class="btnx" id="btn5">Mercedes-Benz GLK</button>
+          <button class="btnx" id="btn6">VW Passat CC</button>
+          </div>
+      </div>
+      <div style="margin-top: -50px;" class="col-12 col-md-6 y">
+        <img class="imgy" id="imgy"
+        src="https://car-rental-ten.vercel.app/static/media/audia1.d038cf70b700e34e607a.jpg"/>
+      </div>
+      <div class="col-12 col-md-3 z">
+        <div class="pick-description">
+          <div class="pick-description__price text-center">
+          <span id="price">₹4500</span>/day</div>
+          <div class="pick-description__table">
+          <div class="pick-description_table_col">
+          <span>Model</span><span id="Model">Audi</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>Mark</span><span id="Mark">A1</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>Year</span><span id="Year">2012</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>Doors</span><span id="Doors">4/5</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>AC</span><span id="AC">Yes</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>Transmission</span><span id="Transmission">Manual</span>
+          </div>
+          <div class="pick-description_table_col">
+          <span>Fuel</span><span id="Fuel">Gasoline</span>
+          </div>
+          </div>
+          <a class="cta-btn" href="#">Reserve Now</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <section class="banner-section">
+    <div class="container">
+        <div class="banner-content">
+            <div class="banner-content__text">
+                <h2>Save big with our cheap car rental!</h2>
+                <p>Top Airports. Local Suppliers. <span>24/7</span> Support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about" class="choose-section">
+<div class="container">
+    <div class="choose-container">
+<img class="choose-container__img" src="Media/main.70cd75042bdf42515d92.png" alt="car_img">
+<div class="text-container">
+    <div class="text-container__left">
+        <h4>Why Choose Us</h4>
+        <h2>Best valued deals you will ever find</h2>
+        <p>Discover the best deals you'll ever find with our unbeatable offers. We're dedicated to providing you with the best value for your money, so you can enjoy top-quality services and products without breaking the bank. Our deals are designed to give you the ultimate renting experience, so don't miss out on your chance to save big.</p>
+        <a href="#home">Find Details &nbsp;</a>
+    </div>
+    <div class="text-container__right">
+        <div class="text-container__right__box">
+            <img src="media/download (4).png" alt="car-img">
+            <div class="text-container__right__box__text">
+                <h4>Cross Country Drive</h4>
+                <p>Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
+            </div>
+        </div>
+        <div class="text-container__right__box">
+            <img src="media/download (5).png" alt="car-img">
+            <div class="text-container__right__box__text">
+                <h4>All inclusive Pricing</h4>
+                <p>Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
+            </div>
+        </div>
+        <div  class="text-container__right__box">
+            <img src="media/download (6).png" alt="car-img">
+            <div class="text-container__right__box__text">
+                <h4>No Hidden Charges</h4>
+                <p>Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</section>
+<section id="testi" class="testimonials-section">
+    <div class="container">
+        <div class="testimonials-content">
+            <div class="testimonials-content__title">
+                <h4>Reviewed by People</h4>
+                <h2>Client's Testimonials</h2>
+                <p>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.
+
+                </p>
+            </div>
+            <div class="all-testimonials">
+                <div class="all-testimonials__box">
+                    
+                    <p>"I rented a car from this website to stop Thanos. The booking was easy and quick. But I was so close to stop Thanos. "</p>
+                    <div class="all-testimonials__box__name">
+                        <div  class="all-testimonials__box__name__profile">
+                            <img src="Media/robert-downey-jr-tony-stark.png" alt="user_img">
+                            <span><h4>Tony Bhai</h4><p>Ameerpet</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-testimonials__box box-2">
+                    
+                    <p>"The car came fast enough to let me collect all the infinity stones, before this Tony could ever stop me HaHa!!"</p>
+                    <div class="all-testimonials__box__name">
+                        <div class="all-testimonials__box__name__profile">
+                            <img src="Media/6a7439644ebbd351b57dbbd12edf300e.jpg" alt="user_img">
+                            <span><h4>Chota Thanos</h4><p>Kukatpally</p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="download-section">
+    
+    <div class="container">
+        
+        <div class="download-text">
+            <h2>Download our app to get most out of it</h2>
+            <p>
+          Now available on all mobile devices. So, book a rented car quick at your convenience. 
+            </p>
+            
+            <div class="download-text__btns">
+                <img alt="download_img" src="Media/googleapp.e6493904327fe3f9b89c7c75a4f3ae74.svg">
+                <img alt="download_img" src="Media/appstore.35481c6295b0744dfcc00d35874fbdd8.svg">
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="contact">
+    <div class="container">
+        <div class="footer-content">
+            
+            <ul class="footer-content__1">
+                <li>
+                    <span>CAR</span> 
+                    Rental</li>
+                    <li>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</li>
+                    <li><a href="tel:123456789"><i class="fa-solid fa-phone"></i> &nbsp; (123) -456-789</a></li>
+                    <li><a href="mailto:  carrental@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp; cartisko@gmail.com</a></li>
+                    
+                </ul>
+                    <ul class="footer-content__2">
+                        <li>Company</li><li><a href="#home">Hyderabad</a></li>
+                        <li><a href="#home">Careers</a></li>
+                        <li><a href="#home">Mobile</a></li>
+                        <li><a href="#home">Blog</a></li>
+                        <li><a href="#home">How we work</a></li>
+                    </ul>
+                    <ul class="footer-content__2">
+                        <li>Working Hours</li>
+                        <li>Mon - Fri: 9:00AM - 9:00PM</li>
+                        <li>Sat: 9:00AM - 19:00PM</li>
+                        <li>Sun: Closed</li>
+                    </ul>
+                    <ul class="footer-content__2">
+                        <li>Subscription</li>
+                        <li><p>Subscribe your Email address for latest news &amp; updates.</p></li>
+                        <li><input type="email" placeholder="Enter Email Address"></li>
+                        <li><button class="submit-email">Submit</button></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   <script src="./index.js"></script>
+</body>
+</html>
