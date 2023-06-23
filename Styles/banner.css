@@ -71,6 +71,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem 0 10rem;
+    background-image: url(https://car-rental-ten.vercel.app/static/media/bg.82b3bf0dc76cd35f3da0.png);
 }
 .choose-container {
     display: flex;
